@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ayçiçeği_Pansiyon_Uygulaması_v1._0;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -94,6 +95,12 @@ namespace Ay_Çiçeği_Pansiyon_Uygulaması_V._1
         private void BtnHavaDurumu_Click(object sender, EventArgs e)
         {
             FrmSifreGuncelle fr = new FrmSifreGuncelle();
+            fr.Show();
+        }
+
+        private void BtnMusteriMesaj_Click(object sender, EventArgs e)
+        {
+            frmMesajlar fr = new frmMesajlar();
             fr.Show();
         }
     }
